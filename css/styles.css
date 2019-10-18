@@ -1,0 +1,19 @@
+.profile-img {
+  width:200px;
+  height:auto;
+  float:right;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cubano;
+}
+
+.contact {
+  font-family: surt;
+}
+
+.cont {
+  font-family: surt-bold;
+  color: rgb(41, 44, 51)
+}
