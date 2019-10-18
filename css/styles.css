@@ -8,7 +8,7 @@
 
 h1 {
   text-align: left;
-  font-family: surt;
+  font-family: osmose;
   text-transform: uppercase;
   font-size: 50px;
   font-stretch: expanded;
@@ -25,16 +25,23 @@ h1 {
 }
 
 h3 {
-  font-family: surt-bold;
+  font-family: osmose;
   font-size: 18px;
 }
 
-ul {
-  font-family: osmose;
+p {
+  font-family: surt;
+  font-size: 14px;
 }
 
-.job.title {
-  font-family: osmose;
+
+ul {
+  font-family: surt;
+  font-size: 14px;
+}
+
+.job-title {
+  font-family: surt;
   font-size: 16px;
 }
 
@@ -53,4 +60,11 @@ sup {
 
 li {
   list-style-type: none;
+  font-family: surt;
+}
+
+.resp {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
