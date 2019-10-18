@@ -1,14 +1,18 @@
 .profile-img {
-  width:200px;
+  width:125px;
   height:auto;
   float:right;
+  margin: auto;
+  padding: 5px;
 }
 
 h1 {
-  text-align: center;
-  font-family: surt-black;
-  font-style: oblique;
+  text-align: left;
+  font-family: surt;
   text-transform: uppercase;
+  font-size: 50px;
+  font-stretch: expanded;
+
 }
 
 .contact {
@@ -41,5 +45,12 @@ h4 {
         font-family: 'surt';
   src:  url('fonts/surt-regular.woff') format('woff'),
         url('fonts/surt-regular.woff2') format('woff2');
+}
 
+sup {
+  color: rgb(62, 68, 80);
+}
+
+li {
+  list-style-type: none;
 }
