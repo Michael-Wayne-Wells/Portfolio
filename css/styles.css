@@ -47,11 +47,11 @@ ul {
 
 @font-face {
   font-family: 'osmose';
-  src:  url('fonts/Osmose-UltraLight.woff') format('woff'),
-        url('fonts/Osmose-UltraLight.woff2') format('woff2');
+  src:  url('../fonts/osmose-UltraLight.woff') format('woff'),
+        url('../fonts/osmose-UltraLight.woff2') format('woff2');
         font-family: 'surt';
-  src:  url('fonts/surt-regular.woff') format('woff'),
-        url('fonts/surt-regular.woff2') format('woff2');
+  src:  url('../fonts/surt-regular.woff') format('woff'),
+        url('../fonts/surt-regular.woff2') format('woff2');
 }
 
 sup {
@@ -67,4 +67,55 @@ li {
   padding: 0;
   margin: 0;
   font-size: 16px;
+}
+nav li {
+  display: inline;
+  float: left;
+  border-radius: 5px;
+  background-color: rgb(45, 45, 45);
+  width: 100px;
+}
+nav a {
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+nav ul {
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.jumbotron {
+  padding: 15px;
+}
+
+a.top-button {
+  position: fixed;
+  bottom: 0;
+  left: 85%;
+  width: 75px;
+  background-color: rgb(45, 45, 45);
+}
+
+.top-button  {
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+a:hover.top-button {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
