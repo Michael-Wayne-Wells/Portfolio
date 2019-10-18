@@ -27,6 +27,11 @@ h1 {
 h3 {
   font-family: osmose;
   font-size: 18px;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 5px;
 }
 
 p {
@@ -55,7 +60,7 @@ ul {
 }
 
 sup {
-  color: rgb(62, 68, 80);
+  font-size: 12px;
 }
 
 li {
