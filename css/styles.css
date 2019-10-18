@@ -8,41 +8,37 @@
   border-bottom: 8px solid black;
   border-left: 8px solid black;
 }
-/* .profile-header {
-  border-right: 8px solid black;
-  border-top: 8px solid black;
-} */
-/* .title-name { */
-  /*
-   */
+
 h1 {
   width: auto;
   text-align: left;
   display: block;
-  font-family: osmose;
-  text-transform: uppercase;
+  font-family: impact;
   font-size: 50px;
-  font-stretch: expanded;
+  text-transform: uppercase;
   /* border-right: 8px solid black; */
   border-left: 8px solid black;
   border-bottom: 8px solid black;
   overflow: hidden;
   padding-right: 0;
+}
 
-
+.company-name {
+  float: right;
 }
 
 .contact {
-  font-family: osmose;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .cont {
-  font-family: surt-bold;
-  color: rgb(41, 44, 51)
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: rgb(41, 44, 51);
+  padding-right: 5px;
 }
 
 h3 {
-  font-family: osmose;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 18px;
   background-color: rgb(75, 75, 75);
   color: white;
@@ -52,50 +48,50 @@ h3 {
 }
 
 p {
-  font-family: surt;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 14px;
 }
 
 
 ul {
-  font-family: surt;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 14px;
 }
 
 .job-title {
-  font-family: surt;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 16px;
+  border-top: 3px solid black;
+  border-left: 5px solid black;
+  padding-left: 3px;
+  margin-top: 20px;
 }
 
-@font-face {
-  font-family: 'osmose';
-  src:  url('../fonts/osmose-UltraLight.woff') format('woff'),
-        url('../fonts/osmose-UltraLight.woff2') format('woff2');
-        font-family: 'surt';
-  src:  url('../fonts/surt-regular.woff') format('woff'),
-        url('../fonts/surt-regular.woff2') format('woff2');
-}
 
-sup {
+sub {
   font-size: 12px;
+  padding-left: 8px;
+  float: right;
+
 }
 
 li {
   list-style-type:square;
-  font-family: surt;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 li.job-title {
   list-style-type: none;
 }
 .resp {
-  padding: 0;
-  margin: 0;
+  padding-top: 0;
+  margin: 5px;
   font-size: 16px;
 }
 nav li {
   display: inline;
   float: left;
+  margin: 5px;
   border-radius: 5px;
   background-color: rgb(45, 45, 45);
   width: 100px;
@@ -124,6 +120,7 @@ nav a:hover {
   overflow: hidden;
 }
 
+
 a.top-button {
   position: fixed;
   bottom: 0;
@@ -144,4 +141,13 @@ a.top-button {
 a:hover.top-button {
   background-color: rgb(255, 255, 255);
   color: black;
+}
+
+.jobd {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.phone-padding {
+  padding-right: 5px;
 }
