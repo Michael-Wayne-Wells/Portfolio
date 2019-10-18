@@ -175,3 +175,12 @@ ul.comet {
   list-style-type: none;
   text-align: right;
 }
+
+/* sup {
+  float:right;
+  padding-left: 100px;
+} */
+
+sup.card {
+  float: right;
+}
