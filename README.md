@@ -18,7 +18,7 @@ Sections include:
 
 ## Setup/Installation Requirements
 
-* _Option 1: load [michael_wayne_wells.github.io/portfolio](https://michael_wayne_wells.github.io/Portfolio)_
+* _Option 1: load [https://michael-wayne-wells.github.io/Portfolio/](https://michael-wayne-wells.github.io/Portfolio/)_
 * _Option 2: Clone in terminal with: git clone https://github.com/Michael-Wayne-Wells/Portfolio.git and open the file index.html in your browser.
 
 ## Known Bugs
